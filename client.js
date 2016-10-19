@@ -1,9 +1,14 @@
 var app = angular.module('dApp', []);
-app.controller('dctrl', function($scope) {
-  $scope.classColor = "Enter Color Name";
+
+var self = this;
+
+app.controller('dctrl', function() {
+
+  self.classColor = "Enter Color Name";
 });
 
 
-app.controller('zctrl', function($scope) {
-  $scope.classFont = "Enter Font Name";
+app.controller('zctrl', function() {
+
+  self.classFont = "Enter Font Name";
 });
